@@ -11,31 +11,31 @@ export const prices = {
   phone: {
     label: "Смартфон",
     icon: "📱",
-    screen: [3500, 7000],
-    battery: [1800, 3000],
-    water: [2500, 5000],
-    charging: [1500, 2500],
-    cleaning: [800, 1200],
+    screen: [140, 360],
+    battery: [70, 150],
+    water: [90, 260],
+    charging: [60, 140],
+    cleaning: [35, 70],
     other: null,
   },
   laptop: {
     label: "Ноутбук",
     icon: "💻",
-    screen: [4500, 9000],
-    battery: [2500, 4500],
-    water: [3000, 6000],
-    charging: [1800, 3000],
-    cleaning: [1500, 2500],
+    screen: [180, 520],
+    battery: [120, 280],
+    water: [130, 360],
+    charging: [80, 190],
+    cleaning: [45, 95],
     other: null,
   },
   tablet: {
     label: "Планшет",
     icon: "📲",
-    screen: [3000, 6000],
-    battery: [2000, 3500],
-    water: [2500, 4500],
-    charging: [1500, 2500],
-    cleaning: [1000, 1500],
+    screen: [120, 320],
+    battery: [80, 190],
+    water: [90, 260],
+    charging: [60, 150],
+    cleaning: [35, 80],
     other: null,
   },
 } as const;
@@ -63,7 +63,7 @@ export const trustBadges = [
   { icon: "🛡️", title: "Гарантия 6 месяцев", subtitle: "На все виды ремонта" },
   { icon: "🔍", title: "Бесплатная диагностика", subtitle: "Без скрытых платежей" },
   { icon: "⚙️", title: "Оригинальные запчасти", subtitle: "Или аналоги premium-класса" },
-  { icon: "🚗", title: "Выезд и доставка", subtitle: "По городу — бесплатно от 3000₽" },
+  { icon: "🚗", title: "Выезд и доставка", subtitle: "По Минску — бесплатно от 120 BYN" },
 ];
 
 export const serviceCategories = [
@@ -72,10 +72,10 @@ export const serviceCategories = [
     title: "Смартфоны",
     description: "iPhone, Samsung, Xiaomi и другие",
     items: [
-      { name: "Замена экрана", price: "от 3 500 ₽" },
-      { name: "Замена батареи", price: "от 1 800 ₽" },
-      { name: "Ремонт после воды", price: "от 2 500 ₽" },
-      { name: "Замена разъёма зарядки", price: "от 1 500 ₽" },
+      { name: "Замена экрана", price: "от 140 BYN" },
+      { name: "Замена батареи", price: "от 70 BYN" },
+      { name: "Ремонт после воды", price: "от 90 BYN" },
+      { name: "Замена разъёма зарядки", price: "от 60 BYN" },
     ],
   },
   {
@@ -83,10 +83,10 @@ export const serviceCategories = [
     title: "Ноутбуки",
     description: "Apple, ASUS, Lenovo, HP и другие",
     items: [
-      { name: "Чистка от пыли и замена термопасты", price: "от 1 500 ₽" },
-      { name: "Замена матрицы", price: "от 4 500 ₽" },
-      { name: "Восстановление данных", price: "от 2 000 ₽" },
-      { name: "Замена клавиатуры", price: "от 2 500 ₽" },
+      { name: "Чистка от пыли и замена термопасты", price: "от 45 BYN" },
+      { name: "Замена матрицы", price: "от 180 BYN" },
+      { name: "Восстановление данных", price: "от 80 BYN" },
+      { name: "Замена клавиатуры", price: "от 90 BYN" },
     ],
   },
   {
@@ -94,10 +94,10 @@ export const serviceCategories = [
     title: "Планшеты",
     description: "iPad и Android-планшеты",
     items: [
-      { name: "Замена экрана", price: "от 3 000 ₽" },
-      { name: "Замена батареи", price: "от 2 000 ₽" },
-      { name: "Ремонт разъёма", price: "от 1 500 ₽" },
-      { name: "Чистка от пыли", price: "от 1 000 ₽" },
+      { name: "Замена экрана", price: "от 120 BYN" },
+      { name: "Замена батареи", price: "от 80 BYN" },
+      { name: "Ремонт разъёма", price: "от 60 BYN" },
+      { name: "Чистка от пыли", price: "от 35 BYN" },
     ],
   },
 ];
@@ -165,6 +165,6 @@ export const faqData = [
   {
     question: "Можно ли вызвать мастера на дом или в офис?",
     answer:
-      "Да, работает выезд по городу. Для заказов от 3000 ₽ выезд бесплатный, для более мелкого ремонта — по фиксированной стоимости, которую назовём при записи.",
+      "Да, работает выезд по Минску. Для заказов от 120 BYN выезд бесплатный, для более мелкого ремонта — по фиксированной стоимости, которую назовём при записи.",
   },
 ];

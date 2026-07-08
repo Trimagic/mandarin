@@ -51,9 +51,9 @@ export function ContactSection() {
               <div className="mb-5 text-sm font-bold uppercase tracking-[0.06em] text-[#FF8C42]">Контакты</div>
               <div className="space-y-5">
                 {[
-                  ["📍", "г. Москва, ул. Примерная, 12", "Ежедневно, 09:00–21:00"],
-                  ["📞", "+7 (999) 123-45-67", "Звонок или WhatsApp"],
-                  ["✉️", "hello@mandarin-service.ru", "Ответим в течение дня"],
+                  ["📍", "г. Минск, ул. Примерная, 12", "Ежедневно, 09:00–21:00"],
+                  ["📞", "+375 (29) 123-45-67", "Звонок или WhatsApp"],
+                  ["✉️", "hello@mandarin-service.by", "Ответим в течение дня"],
                 ].map(([icon, title, subtitle]) => (
                   <div key={title} className="flex gap-4">
                     <div className="flex size-10 shrink-0 items-center justify-center rounded-[10px] bg-[#FF6A1F]/15 text-[17px]">{icon}</div>

@@ -33,10 +33,10 @@ export function CalculatorSection() {
     }
 
     return {
-      text: `от ${value[0].toLocaleString("ru-RU")} ₽`,
+      text: `от ${value[0].toLocaleString("ru-RU")} BYN`,
       note: `Обычно до ${value[1].toLocaleString(
         "ru-RU"
-      )} ₽ · финальная цена зависит от модели`,
+      )} BYN · финальная цена зависит от модели`,
     };
   }, [device, issue]);
 

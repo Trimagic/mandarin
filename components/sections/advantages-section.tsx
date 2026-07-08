@@ -51,7 +51,7 @@ export function AdvantagesSection() {
                 <div className="rounded-2xl border border-white/10 bg-[#131110]/70 p-4">
                   <div className="text-xs text-[#8A8278]">Диагностика</div>
                   <div className="mt-1 font-brand text-xl font-bold text-[#FF8C42]">
-                    0 ₽
+                    0 BYN
                   </div>
                 </div>
 
@@ -187,7 +187,7 @@ export function AdvantagesSection() {
             </p>
 
             <div className="mt-5 inline-flex rounded-full bg-[#FF6A1F]/10 px-3 py-1.5 text-xs font-bold text-[#FF9D5C]">
-              от 3000 ₽ бесплатно
+              от 120 BYN бесплатно
             </div>
           </article>
         </div>

@@ -125,7 +125,7 @@ export function HeroSection() {
                     </div>
 
                     <div className="mt-1 font-brand text-[28px] font-bold leading-none tracking-[-0.01em] text-[#FF8C42] sm:text-[30px]">
-                      от 1 900 ₽
+                      от 140 BYN
                     </div>
                   </div>
 

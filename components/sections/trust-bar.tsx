@@ -24,7 +24,7 @@ const trustItems = [
   {
     icon: Car,
     title: "Выезд и доставка",
-    subtitle: "По городу от 3000 ₽ бесплатно",
+    subtitle: "По Минску от 120 BYN бесплатно",
   },
 ];
 

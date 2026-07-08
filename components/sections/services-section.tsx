@@ -74,7 +74,7 @@ export function ServicesSection() {
                 <div>
                   <div className="text-xs text-[#8A8278]">Стоимость</div>
                   <div className="mt-1 font-brand text-[30px] font-bold leading-none text-[#FF8C42]">
-                    от 3 500 ₽
+                    от 140 BYN
                   </div>
                 </div>
 
@@ -88,19 +88,19 @@ export function ServicesSection() {
               <ServiceRow
                 icon={<BatteryCharging className="size-4" />}
                 title="Замена батареи"
-                price="от 1 800 ₽"
+                price="от 70 BYN"
               />
 
               <ServiceRow
                 icon={<PlugZap className="size-4" />}
                 title="Разъём зарядки"
-                price="от 1 500 ₽"
+                price="от 60 BYN"
               />
 
               <ServiceRow
                 icon={<Droplets className="size-4" />}
                 title="После воды"
-                price="от 2 500 ₽"
+                price="от 90 BYN"
               />
             </div>
           </article>
@@ -141,7 +141,7 @@ export function ServicesSection() {
                 </div>
 
                 <div className="shrink-0 rounded-2xl bg-[#FF6A1F]/10 px-3 py-2 text-sm font-extrabold text-[#FF8C42]">
-                  от 1 500 ₽
+                  от 45 BYN
                 </div>
               </div>
 
@@ -164,13 +164,13 @@ export function ServicesSection() {
               <LaptopServiceRow
                 icon={<Laptop className="size-4" />}
                 title="Замена матрицы"
-                price="от 4 500 ₽"
+                price="от 180 BYN"
               />
 
               <LaptopServiceRow
                 icon={<Keyboard className="size-4" />}
                 title="Замена клавиатуры"
-                price="от 2 500 ₽"
+                price="от 90 BYN"
               />
             </div>
           </article>
@@ -210,7 +210,7 @@ export function ServicesSection() {
                   </div>
 
                   <div className="mt-3 inline-flex rounded-full bg-[#FF6A1F]/10 px-3 py-1 text-sm font-extrabold text-[#FF8C42]">
-                    от 3 000 ₽
+                    от 120 BYN
                   </div>
                 </div>
               </div>
@@ -220,13 +220,13 @@ export function ServicesSection() {
               <TabletPriceCard
                 icon={<BatteryCharging className="size-5" />}
                 title="Батарея"
-                price="от 2 000 ₽"
+                price="от 80 BYN"
               />
 
               <TabletPriceCard
                 icon={<PlugZap className="size-5" />}
                 title="Разъём"
-                price="от 1 500 ₽"
+                price="от 60 BYN"
               />
 
               <div className="col-span-2 rounded-2xl border border-white/10 bg-white/[0.035] p-4">

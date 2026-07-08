@@ -25,8 +25,8 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <a href="tel:+79991234567" className="hidden text-[15px] font-bold text-[#F3EEE7] sm:block">
-            +7 (999) 123-45-67
+          <a href="tel:+375291234567" className="hidden text-[15px] font-bold text-[#F3EEE7] sm:block">
+            +375 (29) 123-45-67
           </a>
           <Button className="hidden h-10 rounded-[10px] bg-[#FF6A1F] px-5 text-sm font-extrabold text-[#131110] hover:bg-[#FF8C42] sm:inline-flex" asChild>
             <a href="#form">Рассчитать стоимость</a>
