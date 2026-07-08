@@ -1,18 +1,61 @@
-import { trustBadges } from "@/components/sections/landing-data";
+import {
+  Car,
+  SearchCheck,
+  ShieldCheck,
+  Wrench,
+} from "lucide-react";
+
+const trustItems = [
+  {
+    icon: ShieldCheck,
+    title: "Гарантия 6 месяцев",
+    subtitle: "На все виды ремонта",
+  },
+  {
+    icon: SearchCheck,
+    title: "Бесплатная диагностика",
+    subtitle: "Без скрытых платежей",
+  },
+  {
+    icon: Wrench,
+    title: "Качественные запчасти",
+    subtitle: "Оригинал или premium-аналог",
+  },
+  {
+    icon: Car,
+    title: "Выезд и доставка",
+    subtitle: "По городу от 3000 ₽ бесплатно",
+  },
+];
 
 export function TrustBar() {
   return (
-    <section className="border-y border-white/10 bg-[#161311]">
-      <div className="mandarin-container grid gap-6 px-8 py-7 sm:grid-cols-2 lg:grid-cols-4">
-        {trustBadges.map((item) => (
-          <div key={item.title} className="flex items-center gap-3">
-            <div className="flex size-[42px] shrink-0 items-center justify-center rounded-[11px] bg-[#FF6A1F]/10 text-[19px]">{item.icon}</div>
-            <div>
-              <div className="text-[14.5px] font-bold text-[#F3EEE7]">{item.title}</div>
-              <div className="text-[12.5px] text-[#8A8278]">{item.subtitle}</div>
+    <section className="border-y border-white/10 bg-[#161311]/95">
+      <div className="mandarin-container grid gap-x-6 gap-y-5 px-4 py-5 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8 lg:py-6">
+        {trustItems.map((item) => {
+          const Icon = item.icon;
+
+          return (
+            <div
+              key={item.title}
+              className="flex min-w-0 items-center gap-3 lg:justify-center"
+            >
+              <div className="flex size-[42px] shrink-0 items-center justify-center rounded-[13px] border border-[#FF6A1F]/20 bg-[#FF6A1F]/10 text-[#FF8C42] shadow-[0_10px_30px_-18px_rgba(255,106,31,0.9)]">
+                <Icon className="size-[20px]" />
+              </div>
+
+              <div className="min-w-0">
+                <div className="text-[14px] font-extrabold leading-5 text-[#F3EEE7]">
+                  {item.title}
+                </div>
+
+                <div className="mt-0.5 text-[12.5px] leading-4 text-[#8A8278]">
+                  {item.subtitle}
+                </div>
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
